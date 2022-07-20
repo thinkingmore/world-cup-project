@@ -248,6 +248,19 @@ main {
 	.main-section-container {
 	display:block;
 	}
+	.banner-title {
+	font-size:2.2rem;
+	margin-top:2rem;
+	}
+	.hero-subtitle{
+	font-size:0.9rem;
+	line-height:1 rem;
+	}
+	.hero-banner {
+	height:70vh;
+	display:flex;
+	justify-content:flex-start;
+	}
 	
 	
 	.button-wrapper {
@@ -314,10 +327,10 @@ main {
 @media screen and (max-width:576px) {
 	.banner-title {
 	font-size:1.5rem;
-	margin-top:3rem;
+	margin-top:2rem;
 	}
 	.hero-subtitle{
-	font-size:1rem;
+	font-size:0.8rem;
 	line-height:1 rem;
 	}
 	.hero-banner {
